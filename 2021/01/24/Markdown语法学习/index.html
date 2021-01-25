@@ -87,9 +87,8 @@
 <meta property="og:description" content="什么是Markdown Markdown是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编辑文档。  Markdown语言在2004年由约翰·格鲁伯（英语：John Gruber）创建。  Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。  Markdown 编写的文档后缀为 .md, .markdown。   Markdown标题我们">
 <meta property="og:locale">
 <meta property="og:image" content="https://s3.ax1x.com/2021/01/24/sbrnw8.jpg">
-<meta property="og:image" content="https://s3.ax1x.com/2021/01/24/sbrnw8.jpg">
 <meta property="article:published_time" content="2021-01-24T10:24:07.000Z">
-<meta property="article:modified_time" content="2021-01-24T15:09:43.239Z">
+<meta property="article:modified_time" content="2021-01-25T12:18:45.750Z">
 <meta property="article:author" content="Hashtag233">
 <meta property="article:tag" content="Blog">
 <meta name="twitter:card" content="summary">
@@ -410,10 +409,34 @@
 <h3 id="Markdown代码"><a href="#Markdown代码" class="headerlink" title="Markdown代码"></a>Markdown代码</h3><h4 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#96;printf()&#96;</span><br></pre></td></tr></table></figure>
 <p>显示效果如下<br><code>printf()</code></p>
 <h4 id="代码段"><a href="#代码段" class="headerlink" title="代码段"></a>代码段</h4><p>输入如下</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#96;&#96;&#96;javascript</span><br><span class="line">function test() &#123;</span><br><span class="line">	console.log(&quot;Hello world!&quot;);</span><br><span class="line">&#125;</span><br><span class="line">​&#96;&#96;&#96;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">​&#96;&#96;&#96;javascript</span><br><span class="line">function test() &#123;</span><br><span class="line">	console.log(&quot;Hello world!&quot;);</span><br><span class="line">&#125;</span><br><span class="line">​&#96;&#96;&#96;</span><br></pre></td></tr></table></figure>
 <p>显示效果如下</p>
-<p>​```javascript<br>function test() {<br>    console.log(“Hello world!”);<br>}</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">### Markdown表格</span><br><span class="line"></span><br><span class="line">实例如下</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">&quot;Hello world!&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Markdown表格"><a href="#Markdown表格" class="headerlink" title="Markdown表格"></a>Markdown表格</h3><p>实例如下</p>
+<table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">显示效果如下</td>
+<td align="right"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
 <table>
 <thead>
 <tr>
@@ -433,10 +456,19 @@
 <td align="center">单元格</td>
 </tr>
 </tbody></table>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">显示效果如下</span><br><span class="line"></span><br><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">| :----- | -----: | :------: |</span><br><span class="line">| 单元格 | 单元格 |  单元格  |</span><br><span class="line">| 单元格 | 单元格 |  单元格  |</span><br><span class="line"></span><br><span class="line">### Markdown图片</span><br><span class="line"></span><br><span class="line">插入图片我们需要先上传到图床网站获取链接，然后再插入图片链接，具体操作如下：</span><br><span class="line"></span><br><span class="line">1. 我们首先打开网站https:&#x2F;&#x2F;imgchr.com&#x2F;</span><br><span class="line">2. 点击开始上传，上传一张我们想要的图</span><br><span class="line">3. 上传好了我们找到下面Markdown Code并复制</span><br><span class="line">4. 将复制的链接粘贴过来</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="Markdown图片"><a href="#Markdown图片" class="headerlink" title="Markdown图片"></a>Markdown图片</h3><p>插入图片我们需要先上传到图床网站获取链接，然后再插入图片链接，具体操作如下：</p>
+<ol>
+<li><p>我们首先打开网站<a target="_blank" rel="noopener" href="https://imgchr.com/">https://imgchr.com/</a></p>
+</li>
+<li><p>点击开始上传，上传一张我们想要的图</p>
+</li>
+<li><p>上传好了我们找到下面Markdown Code并复制</p>
+</li>
+<li><p>将复制的链接粘贴过来</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[![sbrnw8.jpg](https:&#x2F;&#x2F;s3.ax1x.com&#x2F;2021&#x2F;01&#x2F;24&#x2F;sbrnw8.jpg)](https:&#x2F;&#x2F;imgchr.com&#x2F;i&#x2F;sbrnw8)</span><br></pre></td></tr></table></figure>
 <p><a target="_blank" rel="noopener" href="https://imgchr.com/i/sbrnw8"><img src="https://s3.ax1x.com/2021/01/24/sbrnw8.jpg" alt="sbrnw8.jpg"></a></p>
-<p>```</p>
-<p><a target="_blank" rel="noopener" href="https://imgchr.com/i/sbrnw8"><img src="https://s3.ax1x.com/2021/01/24/sbrnw8.jpg" alt="sbrnw8.jpg"></a></p>
+</li>
+</ol>
 <p>这些就是基本的Markdown语法</p>
 <p><del>真的跟wikitext差太多了</del></p>
 
@@ -613,7 +645,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFMarkdown"><span class="nav-number">1.</span> <span class="nav-text">什么是Markdown</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown%E6%A0%87%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">Markdown标题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown%E6%AE%B5%E8%90%BD"><span class="nav-number">3.</span> <span class="nav-text">Markdown段落</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%97%E4%BD%93"><span class="nav-number">3.1.</span> <span class="nav-text">字体</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%86%E9%9A%94%E7%BA%BF"><span class="nav-number">3.2.</span> <span class="nav-text">分隔线</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%A0%E9%99%A4%E7%BA%BF"><span class="nav-number">3.3.</span> <span class="nav-text">删除线</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%8B%E5%88%92%E7%BA%BF"><span class="nav-number">3.4.</span> <span class="nav-text">下划线</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown%E5%88%97%E8%A1%A8"><span class="nav-number">4.</span> <span class="nav-text">Markdown列表</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="nav-number">4.1.</span> <span class="nav-text">无序列表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="nav-number">4.2.</span> <span class="nav-text">有序列表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%97%E8%A1%A8%E5%B5%8C%E5%A5%97%E7%94%A8%E6%B3%95"><span class="nav-number">4.3.</span> <span class="nav-text">列表嵌套用法</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown%E5%BC%95%E7%94%A8"><span class="nav-number">5.</span> <span class="nav-text">Markdown引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown%E4%BB%A3%E7%A0%81"><span class="nav-number">6.</span> <span class="nav-text">Markdown代码</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81"><span class="nav-number">6.1.</span> <span class="nav-text">代码</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E6%AE%B5"><span class="nav-number">6.2.</span> <span class="nav-text">代码段</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFMarkdown"><span class="nav-number">1.</span> <span class="nav-text">什么是Markdown</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown%E6%A0%87%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">Markdown标题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown%E6%AE%B5%E8%90%BD"><span class="nav-number">3.</span> <span class="nav-text">Markdown段落</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%97%E4%BD%93"><span class="nav-number">3.1.</span> <span class="nav-text">字体</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%86%E9%9A%94%E7%BA%BF"><span class="nav-number">3.2.</span> <span class="nav-text">分隔线</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%A0%E9%99%A4%E7%BA%BF"><span class="nav-number">3.3.</span> <span class="nav-text">删除线</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%8B%E5%88%92%E7%BA%BF"><span class="nav-number">3.4.</span> <span class="nav-text">下划线</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown%E5%88%97%E8%A1%A8"><span class="nav-number">4.</span> <span class="nav-text">Markdown列表</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="nav-number">4.1.</span> <span class="nav-text">无序列表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="nav-number">4.2.</span> <span class="nav-text">有序列表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%97%E8%A1%A8%E5%B5%8C%E5%A5%97%E7%94%A8%E6%B3%95"><span class="nav-number">4.3.</span> <span class="nav-text">列表嵌套用法</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown%E5%BC%95%E7%94%A8"><span class="nav-number">5.</span> <span class="nav-text">Markdown引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown%E4%BB%A3%E7%A0%81"><span class="nav-number">6.</span> <span class="nav-text">Markdown代码</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81"><span class="nav-number">6.1.</span> <span class="nav-text">代码</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E6%AE%B5"><span class="nav-number">6.2.</span> <span class="nav-text">代码段</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown%E8%A1%A8%E6%A0%BC"><span class="nav-number">7.</span> <span class="nav-text">Markdown表格</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown%E5%9B%BE%E7%89%87"><span class="nav-number">8.</span> <span class="nav-text">Markdown图片</span></a></li></ol></div>
             
 
           </div>
